@@ -1,0 +1,193 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+.header{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #D8794A;
+    align-items: center;
+    display: flex;
+}
+.header .login {
+    margin-left: 70%;
+    text-decoration: none;
+    display: flex;
+    
+}
+.header .login a{
+    color: white;
+}
+.header .login p{
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 30%;
+    background-color: #613317;
+    align-items: center;
+    display: flex;
+    
+}
+
+.menu ul {
+    margin: auto;
+    padding: 0px;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+   
+}
+.menu li:hover{
+    background-color: black;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding: 0px 15px 0px 15px;
+}
+
+
+.banner {
+    width: 100%;
+    max-height: 600px auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.noidung_banner {
+    height: 40%;
+    position: absolute;
+    margin: 150px 0px 0px 120px;
+    width: 40%;
+    background-size: 100%;
+    line-height: 1.6;
+    color: white;
+}
+
+.sanpham {
+    background-color: white;
+    margin-top: 20px;
+    
+    
+}
+
+
+.sanpham_img{
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.sanpham_name{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin: 10px;
+    height: 28px;
+}
+.sanpham_price{
+    font-size: 16px;
+    color: black;
+    margin: 10px;
+    font-weight: bold;
+}
+.danhmuc{
+    width: 100%;
+    height: 35px;
+    background-color: #613317;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-top: 4px solid #613317;
+    padding-top: 16px;
+    
+}
+.footer_list{
+    padding-left: 0;
+    list-style: none;
+
+}
+.footer_item{
+    padding: 5px 0;
+}
+.footer_heading{
+    padding: 5px 0;
+}
+.footer a{
+    color: black;
+    
+}
+.banquyen{
+    font-size: 16px;
+    text-align: right;
+    
+}
+
+/*mobile* width < 740px*/
+@media only screen and (max-width: 46.1875em){
+    .header{
+        width: 100%;
+        height: 100px;
+    }
+    .header .login{
+        margin-left: 20%;
+        display: flex;
+    }
+    .sanpham_name{
+        display: none;
+    }
+    .sanpham_price{
+        font-size: 12px;
+    }
+   .footer *{
+    display: inline ;
+   }
+   .menu{
+    flex-direction: column;
+   }
+   .menu ul li{
+    float: none;
+   }
+    
+}
+   
+
+
+/*tablet* width >=740 width <1024px*/
+@media only screen and (min-width: 46.25em)and (max-width: 63.9375em) {
+    .header{
+        width: 100%;
+        height: 100px;
+    }
+    .header .login{
+        margin-left: 50%;
+        display: flex;
+    }
+}

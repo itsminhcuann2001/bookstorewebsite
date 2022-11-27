@@ -1,0 +1,158 @@
+.grid {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.auth {
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 440px;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+.auth__header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.auth__header h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #696969;
+}
+.auth__form {
+    padding: 15px 40px 30px;
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+    .form-control label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .form-control input {
+        border: 1px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+        outline-color: #2ecc71;
+    }
+
+    .auth_btn {
+        cursor: pointer;
+        background-color: #2ecc71;
+        border: none;
+        color: #f0f0f0;
+        display: block;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        border-radius: 3px;
+        outline: none;
+    }
+
+    /*Header*/
+    * {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        
+    }
+    .header{
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        height: 100px;
+        background-color: #D8794A;
+        align-items: center;
+        display: flex;
+    }
+    .header .login {
+        margin-left: 70%;
+        text-decoration: none;
+        display: flex;
+        
+    }
+    .header .login a{
+        color: white;
+    }
+    .header .login p{
+        color: white;
+    }
+    
+    .menu {
+        width: 100%;
+        height: 30%;
+        background-color: #613317;
+        align-items: center;
+        display: flex;
+        
+    }
+    
+    .menu ul {
+        margin: auto;
+        padding: 0px;
+    }
+    
+    .menu ul li {
+        list-style: none;
+        float: left;
+       
+    }
+    .menu li:hover{
+        background-color: black;
+    }
+    
+    .menu ul li a {
+        text-decoration: none;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        color: white;
+        padding: 0px 15px 0px 15px;
+    }
+
+
+/*Footer*/
+.footer{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-top: 4px solid #613317;
+    padding-top: 16px;
+    
+}
+.footer_list{
+    padding-left: 0;
+    list-style: none;
+
+}
+.footer_item{
+    padding: 5px 0;
+}
+.footer_heading{
+    padding: 5px 0;
+}
+.footer a{
+    color: black;
+    
+}
+.banquyen{
+    font-size: 16px;
+    text-align: right;
+    
+}    
